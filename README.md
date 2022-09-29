@@ -1,4 +1,4 @@
-# DLLFileDropper
+# DLL Dropper
 
 Dropper.dll downloads and executes a second stage payload.
 
