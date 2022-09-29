@@ -1,8 +1,7 @@
 # DLLFileDropper
-C++ DLL code for downloading and executing second stage payloads.
 
-Dropper.dll will download a second stage .exe payload via `URLDownloadToFile` and execute it with `CreateProcess`. 
+Dropper.dll downloads and executes a second stage payload.
 
-**You will need to alter the "CHANGE_ME_XXX" values and compile the 'dllmain.cpp' cpp file**
+`C:\Windows\System32\Rundll32.exe C:\temp\Dropper.dll,run` 
 
-Windows execution -> `C:\Windows\System32\Rundll32.exe C:\temp\Dropper.dll,run` 
+**Note:** *Needs to be compiled*
